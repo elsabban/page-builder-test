@@ -59,11 +59,10 @@ class Slider extends Main {
     
 }
 
-// var section1 = new Main('section1', `<div class="desc">div div div</div>`, `<img src="" class="img">`)
 var section1 = new ImgSec('secImg', 'awsome section 1',`test.png`, `hello section 1`)
-var section2 = new Slider('slider', 'awsome section 1',['test.png','test.png','test.png','test.png'], `hello slider`)
-
 section1.createFunc()
+
+var section2 = new Slider('slider', 'awsome section 1',['test.png','test.png','test.png','test.png'], `hello slider`)
 section2.createSlider()
 
 
